@@ -1,0 +1,111 @@
+/* responsive-style.css */
+@media (max-width: 768px) {
+  .section {
+    padding: 5rem 1.5rem 3rem;
+  }
+
+  .home-content h1 {
+    font-size: 2rem;
+  }
+
+  .home-content p {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .submit-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .about-content p,
+  .project-info p {
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 1rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .project-card {
+    padding: 1.2rem;
+  }
+
+  .contact-container {
+    padding: 1.5rem;
+    margin: 2rem 1rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    display: none;
+    width: 100%;
+    background-color: var(--primary);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1000;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .menu-icon {
+    font-size: 1.6rem;
+  }
+
+  .home-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .home-content p,
+  .section p {
+    font-size: 0.95rem;
+  }
+
+  .btn,
+  .submit-btn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+  }
+
+  #topBtn {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 13px;
+    font-size: 16px;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
